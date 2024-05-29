@@ -6,8 +6,8 @@
 
 class Edge {
 private:
-	Vertex& m_Left;
-	Vertex& m_Right;
+	Vertex m_Left;
+	Vertex m_Right;
 
 public:
 	Vertex& getLeft()				{ return m_Left;	}
@@ -18,6 +18,14 @@ public:
 	Edge(Vertex& i_Left, Vertex& i_Right){
 		setLeft(i_Left);
 		setRight(i_Right);
+	}
+
+	bool operator==(int i_Other) {
+		return i_Other == m_Right.getPoint();
+	}
+
+	bool operator!=(int i_Other) {
+		return i_Other != m_Right.getPoint();
 	}
 };
 
