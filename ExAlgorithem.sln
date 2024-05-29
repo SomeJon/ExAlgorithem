@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithem_Joanthan_Shaya", "Algorithem_Joanthan_Shaya\Algorithem_Joanthan_Shaya.vcxproj", "{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Debug|x64.ActiveCfg = Debug|x64
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Debug|x64.Build.0 = Debug|x64
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Debug|x86.ActiveCfg = Debug|Win32
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Debug|x86.Build.0 = Debug|Win32
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Release|x64.ActiveCfg = Release|x64
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Release|x64.Build.0 = Release|x64
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Release|x86.ActiveCfg = Release|Win32
+		{D871F77B-F5AA-4D45-BBB5-9AAB5CD0083B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01E094C2-0EB2-4131-B024-34E1A730374E}
+	EndGlobalSection
+EndGlobal
